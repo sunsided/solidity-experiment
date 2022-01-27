@@ -1,4 +1,6 @@
 /cache/
+/artifacts/
+converage.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/webstorm+all,node,solidity,soliditytruffle
 # Edit at https://www.toptal.com/developers/gitignore?templates=webstorm+all,node,solidity,soliditytruffle
