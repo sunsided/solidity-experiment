@@ -12,11 +12,25 @@ Plugins used for Hardhat:
 5. **ethers**: This is a popular Ethereum client library. It allows you to interface with blockchains that implement the Ethereum API.
 6. **solidity-coverage**: This library gives coverage reports on unit tests with the help of Istanbul.
 
-## Compile, run
+## Compile, test, deploy
+
+To build and test:
 
 ```console
 $ npm run build
 $ npm run test
+```
+
+To deploy locally:
+
+```console
+$ npm run local-testnet
+```
+
+and
+
+```console
+$ npm run deploy:local
 ```
 
 [How To Set Up A Solidity Project And Create Your First Smart Contract]: https://blog.oliverjumpertz.dev/how-to-set-up-a-solidity-project-and-create-your-first-smart-contract
