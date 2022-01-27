@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/webstorm+all,node,solidity
-# Edit at https://www.toptal.com/developers/gitignore?templates=webstorm+all,node,solidity
+# Created by https://www.toptal.com/developers/gitignore/api/webstorm+all,node,solidity,soliditytruffle
+# Edit at https://www.toptal.com/developers/gitignore?templates=webstorm+all,node,solidity,soliditytruffle
 
 ### Node ###
 # Logs
@@ -214,6 +214,29 @@ dist
 
 # yarn v2
 
+### SolidityTruffle ###
+# depedencies
+node_modules
+
+# testing
+
+# production
+build
+build_webpack
+
+# misc
+.DS_Store
+npm-debug.log
+.truffle-solidity-loader
+.vagrant/**
+blockchain/geth/**
+blockchain/keystore/**
+blockchain/history
+
+#truffle
+yarn.lock
+package-lock.json
+
 ### WebStorm+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -309,4 +332,4 @@ modules.xml
 # Sonarlint plugin
 .idea/sonarlint
 
-# End of https://www.toptal.com/developers/gitignore/api/webstorm+all,node,solidity
+# End of https://www.toptal.com/developers/gitignore/api/webstorm+all,node,solidity,soliditytruffle
